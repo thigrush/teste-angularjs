@@ -13,4 +13,6 @@ Para baixar o projeto use:
 2. npm install
 3. webpack-dev-server
 
+Também está hospedado: teste-thiago.tk
+
 ### Muito obrigado!
