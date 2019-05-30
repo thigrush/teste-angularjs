@@ -1,0 +1,111 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Nav */
+
+.nav {
+    background-color: #ccc;
+    padding: 20px 0;
+    display:flex;
+    justify-content: center;
+    box-shadow: 0 1px 4px #000;
+    float: top;
+    width:100%;
+}
+
+img {
+    margin: 0 20px;
+}
+
+/* GRID */
+
+.grid {
+    height: 100%;
+    position:relative;
+    align-content: center;
+    margin-top: 5%;
+}
+
+.col-sm {
+    padding: 0;
+    margin: 15px;
+    border: 1px solid #609;
+    border-radius: 7px;
+}
+
+.plano {
+    border: 1px solid #609;
+    border-radius: 5px;
+}
+
+.titulo {
+    background: #609;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+    text-align:center;
+    position:relative;
+    width:100%;
+    font-weight: bold;
+    font-size: 20pt;
+    padding: 0!important;
+    height: 50px;
+}
+
+.descricao {
+    text-align: center;
+    min-height: 150px;
+}
+
+.precotablet {
+    width:100%; 
+    text-align:center;
+}
+
+.button {
+    width:100%;
+    text-align:center;
+    padding: 20px;
+    float: bottom;
+}
+
+.btn-primary {
+    height: 2.5em;
+    width: 10em;
+    background: #609;
+    border-color: #609;
+}
+
+.btn-primary:hover {
+    background: rgb(46, 0, 70);
+    border-color: rgb(46, 0, 70);
+}
+
+/* FORMULARIO */
+
+form {
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    position:relative;
+    padding: 0 100px;
+    
+}
+
+.formulario {
+    width: 100%;
+    position:relative;
+    align-content: center;
+    text-align:center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    vertical-align: center;
+}
+
