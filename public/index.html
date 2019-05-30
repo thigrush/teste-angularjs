@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Teste Front-End Wooza - Thiago</title>
+        <link rel="stylesheet" href="src/lib/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="src/css/styles.css">
+        <link rel="icon" type="image/png" href="src/img/wooza_favicon.png">
+        <script src="src/lib/angular.min.js"></script>
+        <script src="src/lib/angular-router.min.js"></script>
+        <script src="src/app.js"></script>
+        <script src="src/controller.js"></script>
+    </head>
+    <body>
+        <div class="nav">
+            <a href="#!produtos">
+                <img src="src/img/wooza_favicon.png"/>
+            </a>
+        </div>
+        <div class="grid" ng-app="teste">
+            <div ng-view></div>
+        </div>
+    </body>
+</html>
