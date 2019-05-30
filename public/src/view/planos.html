@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row" ng-controller="planosCtrl">
+        <div class="col-sm" ng-repeat="plan in plans">
+            <p class="titulo">{{plan.franquia}}</p>
+            <p ng-if="plan.aparelho == null" class="precotablet"><strong>Preço plano:</strong> R$ {{plan.valor}}</p>
+            <div class="descricao" ng-if="plan.aparelho">
+                <p><strong>Valor do plano:</strong> R$ {{plan.valor}}</p>
+                <p><strong>Necessário:</strong> {{plan.aparelho.nome}}</p>
+                <p ng-if="plan.aparelho.numeroParcelas > 1">{{plan.aparelho.numeroParcelas}}x de <strong ng-hide="plan.aparelho.valorParcela == false">R$ {{plan.aparelho.valorParcela}}</strong></p>
+                <p><strong>Valor do aparelho:</strong> R$ {{plan.aparelho.valor}}</p>
+            </div>
+            <div class="button">
+                <a href="#!form" ng-click="NomePlano(plan.franquia);" class="btn btn-primary">Contratar</a>
+            </div>
+        </div>
+    </div>
+</div>

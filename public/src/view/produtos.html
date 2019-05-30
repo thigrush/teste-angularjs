@@ -1,0 +1,11 @@
+<div class="container"> 
+    <div class="row" ng-controller="produtosCtrl">
+        <div class="col-sm" ng-repeat="platform in platforms">
+            <p class="titulo">{{platform.nome}}</p>
+            <p class="descricao">{{platform.descricao}}</p>
+            <div class="button">
+                <a href="#!planos" ng-click="SkuPlatform(platform.sku); NomePlatform(platform.nome);" class="btn btn-primary">Selecionar</a>
+            </div>
+        </div>
+    </div>
+</div>
